@@ -268,4 +268,43 @@ class CRUDStateTest extends TestCase
                 ]
             ]);
     }
+
+    public function testFilterStateByAttributes()
+    {
+        factory(State::class)->create([
+            'name' => 'São Paulo',
+            'abbreviation' => 'SP'
+        ]);
+
+        factory(State::class)->create([
+            'name' => 'Rio Grande do Sul',
+            'abbreviation' => 'RS'
+        ]);
+
+        factory(State::class)->create([
+            'name' => 'Rio Grande do Norte',
+            'abbreviation' => 'RN'
+        ]);
+
+        $uri = route('state.filter', [
+            'name' => 'gran'
+        ]);
+
+        $response = $this->get($uri);
+
+        $response
+            ->assertSuccessful()
+            ->assertJsonCount(2, 'states');
+
+
+        $uri = route('state.filter', [
+            'abbreviation' => 'SP'
+        ]);
+
+        $response = $this->get($uri);
+
+        $response
+            ->assertSuccessful()
+            ->assertJsonCount(1, 'states');
+    }
 }

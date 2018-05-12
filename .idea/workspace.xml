@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf3ba117-3ad4-4f4e-bd5e-d4f6cfc3bbae" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/app/Action/Filter/BasicFilterAction.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/app/Model/City.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/.env" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/app/Action/State/Filter.php" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" afterPath="$PROJECT_DIR$/docker-compose.yml" />
+      <change beforePath="$PROJECT_DIR$/environment/nginx/logs/access.log" afterPath="$PROJECT_DIR$/environment/nginx/logs/access.log" />
+      <change beforePath="$PROJECT_DIR$/src/app/Action/City/Filter.php" afterPath="$PROJECT_DIR$/src/app/Action/City/Filter.php" />
+      <change beforePath="$PROJECT_DIR$/src/app/Action/Filter/BasicFilterAction.php" afterPath="$PROJECT_DIR$/src/app/Action/Filter/BasicFilterAction.php" />
+      <change beforePath="$PROJECT_DIR$/src/app/Http/Controllers/StateController.php" afterPath="$PROJECT_DIR$/src/app/Http/Controllers/StateController.php" />
+      <change beforePath="$PROJECT_DIR$/src/config/database.php" afterPath="$PROJECT_DIR$/src/config/database.php" />
+      <change beforePath="$PROJECT_DIR$/src/routes/api.php" afterPath="$PROJECT_DIR$/src/routes/api.php" />
+      <change beforePath="$PROJECT_DIR$/src/tests/Integration/CRUDStateTest.php" afterPath="$PROJECT_DIR$/src/tests/Integration/CRUDStateTest.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,67 +27,32 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Filter.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/Action/City/Filter.php">
+        <entry file="file://$PROJECT_DIR$/src/app/Action/State/Filter.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="46" selection-end-column="28" />
+            <state relative-caret-position="126">
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding>
-                <element signature="e#35#75#0#PHP" expanded="true" />
+                <element signature="e#36#76#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BasicFilterAction.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/Action/Filter/BasicFilterAction.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="46" column="0" lean-forward="false" selection-start-line="44" selection-start-column="14" selection-end-line="46" selection-end-column="0" />
-              <folding>
-                <element signature="e#37#63#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CRUDCityTest.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tests/Integration/CRUDCityTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5868">
-              <caret line="372" column="0" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="372" selection-end-column="0" />
-              <folding>
-                <element signature="e#7117#7515#0#PHP" expanded="false" />
-                <element signature="e#7521#8192#0#PHP" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CRUDStateTest.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/tests/Integration/CRUDStateTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="City.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/Model/City.php">
+      <file leaf-file-name="database.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/config/database.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="5" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <caret line="144" column="0" lean-forward="true" selection-start-line="96" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <file leaf-file-name="phpunit.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/phpunit.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="24" selection-end-column="30" />
+            <state relative-caret-position="0">
+              <caret line="32" column="0" lean-forward="true" selection-start-line="29" selection-start-column="19" selection-end-line="32" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -94,21 +68,63 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseAction.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/Action/BaseAction.php">
+      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1278">
-              <caret line="71" column="20" lean-forward="false" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
+            <state relative-caret-position="54">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CityController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/Http/Controllers/CityController.php">
+      <file leaf-file-name=".env" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1566">
-              <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="20" />
+            <state relative-caret-position="0">
+              <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasicFilterAction.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/Action/Filter/BasicFilterAction.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding>
+                <element signature="e#37#63#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CRUDStateTest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tests/Integration/CRUDStateTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="282" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StateController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/Http/Controllers/StateController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="422">
+              <caret line="97" column="30" lean-forward="false" selection-start-line="97" selection-start-column="30" selection-end-line="97" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="api.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/routes/api.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -137,9 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/app/Validation/Sometimes.php" />
-        <option value="$PROJECT_DIR$/src/database/factories/Location.php" />
-        <option value="$PROJECT_DIR$/src/app/Action/CRUD/Create.php" />
         <option value="$PROJECT_DIR$/src/app/Action/Equipment/Create.php" />
         <option value="$PROJECT_DIR$/src/tests/CRUDLocationTest.php" />
         <option value="$PROJECT_DIR$/src/app/Action/Location/Create.php" />
@@ -179,15 +192,18 @@
         <option value="$PROJECT_DIR$/src/app/Action/State/Update.php" />
         <option value="$PROJECT_DIR$/src/app/Action/State/Create.php" />
         <option value="$PROJECT_DIR$/src/app/Action/City/Create.php" />
-        <option value="$PROJECT_DIR$/src/routes/api.php" />
         <option value="$PROJECT_DIR$/src/app/Action/Filter/BasicFilter.php" />
+        <option value="$PROJECT_DIR$/src/tests/Integration/CRUDCityTest.php" />
+        <option value="$PROJECT_DIR$/src/app/Model/City.php" />
+        <option value="$PROJECT_DIR$/src/routes/api.php" />
+        <option value="$PROJECT_DIR$/src/tests/Integration/CRUDStateTest.php" />
+        <option value="$PROJECT_DIR$/src/app/Http/Controllers/StateController.php" />
         <option value="$PROJECT_DIR$/src/app/Action/Filter/BasicFilterAction.php" />
         <option value="$PROJECT_DIR$/src/app/Action/City/Filter.php" />
-        <option value="$PROJECT_DIR$/src/tests/Integration/CRUDCityTest.php" />
+        <option value="$PROJECT_DIR$/src/app/Action/State/Filter.php" />
+        <option value="$PROJECT_DIR$/src/config/database.php" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/src/.env" />
-        <option value="$PROJECT_DIR$/src/app/Model/City.php" />
-        <option value="$PROJECT_DIR$/src/tests/Integration/CRUDStateTest.php" />
       </list>
     </option>
   </component>
@@ -313,32 +329,6 @@
               <item name="location-api" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="location-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="location-api" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="location-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="location-api" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Model" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="location-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="location-api" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="location-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="location-api" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Integration" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -398,12 +388,13 @@
       <workItem from="1526148348630" duration="1764000" />
       <workItem from="1526150189348" duration="1763000" />
       <workItem from="1526152009198" duration="1765000" />
-      <workItem from="1526153840479" duration="4000" />
+      <workItem from="1526153840479" duration="1140000" />
+      <workItem from="1526155663010" duration="1140000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90058000" />
+    <option name="totallyTimeSpent" value="92334000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
@@ -411,6 +402,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -424,13 +416,15 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.env" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -442,15 +436,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/app/Action/Manager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="77" column="20" lean-forward="false" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/Validation/EquipmentIsNotAvailableToMove.php" />
-    <entry file="file://$PROJECT_DIR$/src/vendor/symfony/http-foundation/Request.php" />
     <entry file="file://$PROJECT_DIR$/src/vendor/jenssegers/mongodb/src/Jenssegers/Mongodb/Query/Builder.php" />
     <entry file="file://$PROJECT_DIR$/src/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php" />
     <entry file="file://$PROJECT_DIR$/src/app/Action/City/MoveTo.php" />
@@ -565,13 +550,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/Integration/EquipmentTest.php" />
-    <entry file="file://$PROJECT_DIR$/src/app/Http/Controllers/StateController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1458">
-          <caret line="88" column="1" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="88" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/Action/CRUD/Update.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
@@ -604,6 +582,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="154" column="13" lean-forward="false" selection-start-line="154" selection-start-column="13" selection-end-line="154" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -674,49 +653,96 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="455" column="20" lean-forward="false" selection-start-line="455" selection-start-column="20" selection-end-line="455" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="13" column="58" lean-forward="false" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/Http/Controllers/CityController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1566">
-          <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/Action/BaseAction.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1278">
+        <state relative-caret-position="530">
           <caret line="71" column="20" lean-forward="false" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/Action/City/Filter.php">
+    <entry file="file://$PROJECT_DIR$/src/tests/Integration/CRUDCityTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="46" selection-end-column="28" />
+        <state relative-caret-position="5400">
+          <caret line="346" column="0" lean-forward="false" selection-start-line="294" selection-start-column="0" selection-end-line="312" selection-end-column="0" />
           <folding>
-            <element signature="e#35#75#0#PHP" expanded="true" />
+            <element signature="e#7117#7515#0#PHP" expanded="false" />
+            <element signature="e#7521#8192#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/Action/Filter/BasicFilterAction.php">
+    <entry file="file://$PROJECT_DIR$/src/routes/api.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="46" column="0" lean-forward="false" selection-start-line="44" selection-start-column="14" selection-end-line="46" selection-end-column="0" />
+        <state relative-caret-position="216">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Http/Controllers/CityController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="102" column="37" lean-forward="true" selection-start-line="92" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Http/Controllers/StateController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="97" column="30" lean-forward="false" selection-start-line="97" selection-start-column="30" selection-end-line="97" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Model/City.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="5" selection-end-column="50" />
           <folding>
-            <element signature="e#37#63#0#PHP" expanded="true" />
+            <element signature="e#29#82#0#PHP" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Action/City/Filter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="e#35#75#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Action/State/Filter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="e#36#76#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="144" column="0" lean-forward="true" selection-start-line="96" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/phpunit.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="29" selection-start-column="19" selection-end-line="32" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -730,36 +756,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="24" selection-end-column="30" />
+        <state relative-caret-position="54">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/.env" />
-    <entry file="file://$PROJECT_DIR$/src/app/Model/City.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/Integration/CRUDCityTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5868">
-          <caret line="372" column="0" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="372" selection-end-column="0" />
-          <folding>
-            <element signature="e#7117#7515#0#PHP" expanded="false" />
-            <element signature="e#7521#8192#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/Integration/CRUDStateTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="282" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Action/Filter/BasicFilterAction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#37#63#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>

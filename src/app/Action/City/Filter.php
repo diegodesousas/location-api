@@ -9,19 +9,12 @@ use App\Validation\Filled;
 class Filter extends BasicFilterAction
 {
     /**
-     * @var City
-     */
-    protected $model;
-
-    /**
      * Filter constructor.
      * @param City $model
      */
     public function __construct(City $model)
     {
-        parent::__construct();
-
-        $this->model = $model;
+        parent::__construct($model);
     }
 
     /**

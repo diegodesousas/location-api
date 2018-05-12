@@ -94,7 +94,7 @@ return [
             'driver'   => 'mongodb',
             'host'     => 'database',
             'port'     => 27017,
-            'database' => 'stone_challeng_test',
+            'database' => 'location_api_test',
             'username' => env('DB_USERNAME'),
             'password' => env('DB_PASSWORD'),
             'options'  => [

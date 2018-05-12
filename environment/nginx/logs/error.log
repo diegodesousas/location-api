@@ -1,8 +1,0 @@
-2018/02/15 13:11:03 [emerg] 1#1: host not found in upstream "php-fpm" in /etc/nginx/conf.d/default.conf:15
-2018/02/15 13:12:27 [emerg] 1#1: host not found in upstream "php-fpm" in /etc/nginx/conf.d/default.conf:15
-2018/05/12 19:27:45 [emerg] 1#1: host not found in upstream "php-fpm" in /etc/nginx/conf.d/default.conf:15
-2018/05/12 19:34:54 [error] 5#5: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.27.0.1, server: localhost, request: "GET /api/city HTTP/1.1", upstream: "fastcgi://172.27.0.4:9000", host: "localhost:8080"
-2018/05/12 19:34:56 [error] 5#5: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 172.27.0.1, server: localhost, request: "GET /api/city HTTP/1.1", upstream: "fastcgi://172.27.0.4:9000", host: "localhost:8080"
-2018/05/12 19:34:57 [error] 5#5: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 172.27.0.1, server: localhost, request: "GET /api/city HTTP/1.1", upstream: "fastcgi://172.27.0.4:9000", host: "localhost:8080"
-2018/05/12 19:34:57 [error] 5#5: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 172.27.0.1, server: localhost, request: "GET /api/city HTTP/1.1", upstream: "fastcgi://172.27.0.4:9000", host: "localhost:8080"
-2018/05/12 19:34:58 [error] 5#5: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 172.27.0.1, server: localhost, request: "GET /api/city HTTP/1.1", upstream: "fastcgi://172.27.0.4:9000", host: "localhost:8080"

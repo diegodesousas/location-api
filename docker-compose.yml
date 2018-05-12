@@ -15,25 +15,6 @@ services:
             dockerfile: PHP_Dockerfile
         volumes:
             - ./src:/src
-        environment:
-          APP_NAME: "Laravel"
-          APP_ENV: "local"
-          APP_KEY: "base64:vxiKe81SQLONT51JOqfLU3/y1vgKNr0n3R0nQ4y3OqI="
-          APP_DEBUG: "true"
-          APP_URL: "http://localhost"
-
-          LOG_CHANNEL: "stack"
-
-          DB_CONNECTION: "mongodb"
-          DB_HOST: "database"
-          DB_PORT: "27017"
-          DB_DATABASE: "location_api"
-
-          BROADCAST_DRIVER: "log"
-          CACHE_DRIVER: "file"
-          SESSION_DRIVER: "file"
-          SESSION_LIFETIME: "120"
-          QUEUE_DRIVER: "sync"
         entrypoint: ./init.sh
 
     database:

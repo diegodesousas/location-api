@@ -4,9 +4,26 @@ namespace App\Action\Filter;
 
 use App\Action\BaseAction;
 use Jenssegers\Mongodb\Eloquent\Builder;
+use Jenssegers\Mongodb\Eloquent\Model as Eloquent;
 
 abstract class BasicFilterAction extends BaseAction
 {
+    /**
+     * @var Eloquent
+     */
+    protected $model;
+
+    /**
+     * Filter constructor.
+     * @param Eloquent $model
+     */
+    public function __construct(Eloquent $model)
+    {
+        parent::__construct();
+
+        $this->model = $model;
+    }
+
     /**
      * Config attributes to filter in model
      *

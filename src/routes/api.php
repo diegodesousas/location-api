@@ -17,6 +17,8 @@ Route::apiResource('city', 'CityController', [
     'parameters' => ['city' => 'id']
 ]);
 
+Route::get('state/filter', 'StateController@filter')->name('state.filter');
+
 Route::apiResource('state', 'StateController', [
     'parameters' => ['state' => 'id']
 ]);

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Action\State\Create;
 use App\Action\State\Delete;
+use App\Action\State\Filter;
 use App\Action\State\Read;
 use App\Action\State\Update;
 use App\Action\Manager;
@@ -84,6 +85,20 @@ class StateController extends Controller
             'response_handler' => [
                 'id.Exists'=> 404
             ]
+        ]);
+    }
+
+    /**
+     * @param Manager $manager
+     * @param Request $request
+     * @return Response
+     */
+    public function filter(Manager $manager, Request $request): Response
+    {
+        $manager->addAction(Filter::class, $request->all());
+
+        return $this->handle($manager, [
+            'result' => Filter::class
         ]);
     }
 }

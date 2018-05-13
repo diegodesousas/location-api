@@ -11,4 +11,4 @@ Rodando os teste
 
 + Com a aplicação rodando, na raíz do projeto, executar o comando: **docker-compose exec php-fpm vendor/bin/phpunit**
 
-Exportei uma coleção do Postman, para ajudar nos testes manuais.
+**Exportei uma coleção do Postman, para ajudar nos testes manuais.**
